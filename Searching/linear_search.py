@@ -7,6 +7,6 @@ def linear_search(list, value):
 
 if __name__ == '__main__':
 	array = [5, 1, 3, 9, 6, 0, 4, 8, 4, 7, 2]
-	value = 0
+	value = 6
 	print("Expected output:", array.index(value))
 	print("function's output:", linear_search(array, value))
