@@ -1,5 +1,5 @@
 def bubble_sort(array):
-    """This function takes a list as input and sorts it by bubble sort algorithm"""
+    """This function takes a list as input and sorts it by bubblegit  sort algorithm"""
     for i in range(len(array)):
         for j in range(len(array)-i-1):
             if array[j] > array[j+1]:
