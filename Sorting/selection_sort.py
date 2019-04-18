@@ -8,7 +8,7 @@ def selection_sort(list):
         if index_min != i:
             list[i], list[index_min] = list[index_min], list[i]
     return list
-        
+
 if __name__ == '__main__':
     li = [6, 1, 4, 9, 2]
     print("Before sort:", li)

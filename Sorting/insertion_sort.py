@@ -6,7 +6,7 @@ def insertion_sort(array):
             array[j+1] = array[j]
             j -= 1
             array[j+1] = item
-        
+
 if __name__ == "__main__":
     list = [6, 1, 4, 9, 2]
     print('Before sort:', list)
