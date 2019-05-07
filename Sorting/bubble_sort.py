@@ -6,6 +6,7 @@ def bubble_sort(array):
                 array[j], array[j+1] = array[j+1], array[j]
     return array
 
+
 if __name__ == '__main__':
     list = [6, 1, 4, 9, 2]
     print("Before sort:", list)
